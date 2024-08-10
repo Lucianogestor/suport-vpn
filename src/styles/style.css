@@ -22,8 +22,8 @@ header{
     align-items: center;
     margin-right: 117px;
     font-size: 20px;
-    
-}
+    gap: 10px;
+   }
 
 .logo-conteiner h1{
     font-weight: 500;
@@ -43,6 +43,7 @@ nav a{
 .access-container{
     display: flex;
     gap: 30px;
+    font-size: 16px;
 }
 
 .access-container :last-child{
@@ -55,4 +56,39 @@ nav a{
 
 button{
     background-color: transparent;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 89px;
+    gap: 41px;
+}
+
+.section-content{
+    width: 555px;
+}
+
+.section-content h2{
+    display: flex;
+    font-size: 50px;
+    font-weight: 500px;
+    margin-top: 28px;
+}
+
+.section-content p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.section-content button{
+width: 250px;
+height: 60px;
+background-color: #f53838;
+border-radius: 10px;
+color: white;
+margin-top: 50px;
+font-size: 16px;
+font-weight: 700;
 }
