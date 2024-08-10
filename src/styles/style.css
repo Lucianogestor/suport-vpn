@@ -1,0 +1,58 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+border: none;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.logo-conteiner{
+    display: flex;
+    align-items: center;
+    margin-right: 117px;
+    font-size: 20px;
+    
+}
+
+.logo-conteiner h1{
+    font-weight: 500;
+}
+
+nav{
+    display: flex;
+    margin-right: 153px;
+    gap: 37px;
+}
+
+nav a{
+    color: #4f5665;
+    font-size: 16px;
+}
+
+.access-container{
+    display: flex;
+    gap: 30px;
+}
+
+.access-container :last-child{
+    border-radius: 50px;
+    border: 1px solid #f53855;
+    width: 150px;
+    height: 45px;
+    color: #f53855;
+}
+
+button{
+    background-color: transparent;
+}
